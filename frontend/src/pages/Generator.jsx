@@ -292,7 +292,7 @@ const Generator = () => {
       setTooltip({
         show: true,
         text: selectedText,
-        x: x - 500,
+        x: x - 600,
         y: y - 400, // Position tooltip above the selection
       });
 
@@ -310,7 +310,7 @@ const Generator = () => {
     const selection = window.getSelection();
     if (selection.toString().length > 0) {
       const rect = selection.getRangeAt(0).getBoundingClientRect();
-      const x = rect.left + window.scrollX - 500;
+      const x = rect.left + window.scrollX - 700;
       const y = rect.top + window.scrollY - 400;
       setTooltip({
         show: true,
