@@ -1,0 +1,27 @@
+.wrapper{
+    width: 100%;
+    min-height: 100vh;
+    padding: 60px 60px;
+    box-sizing: border-box;
+    margin: auto;
+  }
+
+  .white{
+    composes: wrapper;
+    background-color: #f9f9f9;
+  }
+
+  .grey{
+    composes: wrapper;
+    background-color: #edede9;
+  }
+
+  .yellow{
+    composes: wrapper;
+    background-color: #e4e4cd;
+  }
+
+  .blue{
+    composes: wrapper;
+    background-color: #deece9;
+  }

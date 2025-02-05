@@ -1,0 +1,297 @@
+export const patient1 = `
+Radiology reports
+2174-08-14 17:29:00	2174-08-14 18:41:00	CHEST RADIOGRAPH PERFORMED.COMPARISON: None.CLINICAL HISTORY: ___ woman with sensation of something stuck in herthroat. Question mass.FINDINGS: PA and lateral views of the chest are obtained. The lungs are wellexpanded without evidence of pneumonia or CHF. Rounded nodular opacitiesprojecting over the lower lungs bilaterally, most likely correspond withnipple shadows. No pleural effusion or pneumothorax is seen. Mild pleuralparenchymal scarring at the lung apices is noted with mild upper lobe lucencywhich may reflect underlying emphysema. The visualized tracheal air columnappears normal. No foreign bodies are seen. No pleural effusion orpneumothorax is seen. Cardiomediastinal silhouette is normal. Osseousstructures are intact. No free air is seen below the right hemidiaphragm. Mild degenerative changes in the thoracic spine noted.IMPRESSION: No acute findings.
+2175-05-10 10:13:00	2175-05-10 17:37:00	INDICATION: ___ female with dysfunctional uterine bleeding.No prior examinations for comparison.LMP: ___.PELVIC ULTRASOUND: Transabdominal and transvaginal images were acquired, thelatter for further characterization of the uterus and adnexa. The uterusmeasures 6.6 x 3.3 x 3.9 cm. Multiple fibroids are present, the largestmeasuring 7 x 6 x 6 mm in the fundus. Changes of cesarean section are seen inthe anterior uterus, with a small amount of fluid and associated scarring. Endometrial stripe measures 6 mm. The right ovary has a 2.9 x 2.8 x 2.5 cm simple cyst. The left ovary iscongenitally absent. There is no free fluid in the pelvis.IMPRESSION:1. Fibroid uterus.2. C-section scar may serve as reservoir for abnormal bleeding.
+2175-05-10 10:12:00	2175-05-11 10:37:00	BILATERAL DIGITAL SCREENING MAMMOGRAM WITH CADHISTORY: Baseline screening.BILATERAL SCREENING MAMMOGRAM WITH ICAD COMPUTER AIDED DETECTION SOFTWAREVERSION 7.2: There are scattered fibroglandular densities. There are nodominant or spiculated masses, suspicious microcalcifications or areas ofarchitectural distortion. There are no prior studies for comparison. Ifoutside studies are made available an addendum will be issued.IMPRESSION: No evidence of malignancy. BI-RADS 1-negative. Routinescreening mammogram in one year is recommended.
+2177-05-23 13:18:00	2177-05-23 18:15:00	INDICATION: ___ female with right epigastric pain radiating to back,rule out gallstones.COMPARISON: No previous exam for comparison.FINDINGS: The hepatic architecture is unremarkable in appearance. A smallround hyperechoic lesion is seen in segment VI of the liver measuring 1.4 x1.4 x 1.8 cm. This lesion is avascular on color Doppler imaging and theappearance clear represents a hemangioma. A small similar appearing lesion isseen peripherally in the right lobe of the liver measuring 0.8 x 0.5 x 0.9 cmand also likely representing a small hemangioma.No biliary dilatation is seen and the common duct measures 0.3 cm. The portalvein is patent with hepatopetal flow. There are no gallstones. Thegallbladder is normal in appearance. The pancreas and spleen are unremarkableand the spleen measures 9.7 cm. No hydronephrosis is seen. The right kidneymeasures 10.0 cm and the left kidney measures 9.9 cm. The aorta is of normalcaliber throughout. The visualized portion of the IVC is unremarkable.IMPRESSION:1. No gallstones and no signs of cholecystitis.2. Two small hepatic hemangiomas.
+2178-08-29 13:39:00	2178-08-29 17:56:00	CLINICAL HISTORY: Right upper quadrant pain, evaluate for gallstones.ABDOMINAL ULTRASOUND:Comparison scan from ___ shows the presence of two hemangiomas in the liver.The gallbladder shows no evidence of stones. The gallbladder wall is notthickened. The common duct is not dilated. The liver is not enlarged. Twohemangiomas are again seen, unchanged since the prior scan. Normal hepaticportal and venous blood flow was present.Pancreas is normal. The aorta and IVC are unremarkable. Both right and leftkidneys are normal. The spleen is not enlarged.IMPRESSION: Normal gallbladder. No gallstones. Hepatic hemangiomas isunchanged.
+2181-11-15 00:40:00	2181-11-15 07:54:00	EXAMINATION: CHEST (PA AND LAT)INDICATION: History: ___ with PMH GERD presenting with sensation of foreignbody in her throat, SOB. // Foreign body or soft tissue mass in throat?TECHNIQUE: Chest PA and lateralCOMPARISON: Chest radiograph from ___.FINDINGS: Lungs remain hyperinflated, without focal consolidation, pleural effusion, orpneumothorax. On lateral view, the prominent esophagus is identified betweenthe posterior heart and anterior aortic arch. The cardiomediastinalsilhouette is unremarkable. The trachea is not deviated.IMPRESSION: Prominent esophagus on lateral view, without air-fluid level. Given thepatient's history and radiographic appearance, barium swallow is indicatedeither now or electively.
+2181-11-15 00:47:00	2181-11-15 01:12:00	EXAMINATION: NECK SOFT TISSUESINDICATION: ___ woman with dysphasia. Evaluate for soft tissue mass.TECHNIQUE: Frontal and lateral radiograph of the neck.COMPARISON: None available.FINDINGS: There is no evidence of prevertebral soft tissue swelling or soft tissue mass,within the limitations of plain radiography. C1 through T2 are imaged. Milddegenerative changes of the cervical spine are most pronounced at C5-C6 andC6-C7, were there is disc space narrowing and small osteophyte formation. Noevidence of cervical spinal fracture. Lung apices are grossly clear.IMPRESSION: Within the limitation of plain radiography, no evidence of prevertebral softtissue swelling or soft tissue mass in the neck.
+
+
+Admissions
+subject_id	hadm_id	admittime	dischtime	deathtime	admission_type	admit_provider_id	admission_location	discharge_location	insurance	language	marital_status	race	edregtime	edouttime	hospital_expire_flag
+10000117	22927623	2181-11-15 02:05:00	2181-11-15 14:52:00		EU OBSERVATION	P47EY8	EMERGENCY ROOM		Medicaid	English	DIVORCED	WHITE	2181-11-14 21:51:00	2181-11-15 09:57:00	0
+10000117	27988844	2183-09-18 18:10:00	2183-09-21 16:30:00		OBSERVATION ADMIT	P13ACE	WALK-IN/SELF REFERRAL	HOME HEALTH CARE	Medicaid	English	DIVORCED	WHITE	2183-09-18 08:41:00	2183-09-18 20:20:00	0
+
+Diagnoses
+subject_id	hadm_id	seq_num	icd_code	icd_version
+10000117	22927623	1	R1310	10
+10000117	22927623	2	R0989	10
+10000117	22927623	3	K31819	10
+10000117	22927623	4	K219	10
+10000117	22927623	5	K449	10
+10000117	22927623	6	F419	10
+10000117	22927623	7	I341	10
+10000117	22927623	8	M810	10
+10000117	22927623	9	Z87891	10
+
+DRG codes
+subject_id	hadm_id	drg_type	drg_code	description	drg_severity	drg_mortality
+10000117	27988844	APR	308	HIP AND FEMUR FRACTURE REPAIR	1	1
+10000117	27988844	HCFA	482	HIP & FEMUR PROCEDURES EXCEPT MAJOR JOINT W/O CC/MCC		
+
+Electronic Medication Administration Record
+subject_id	hadm_id	emar_id	emar_seq	poe_id	pharmacy_id	enter_provider_id	charttime	medication	event_txt	scheduletime	storetime
+10000117	27988844	10000117-12	12	10000117-51			2183-09-18 12:35:00	Influenza Vaccine Quadrivalent	Hold Dose	2183-09-18 12:35:00	2183-09-18 12:39:00
+10000117	27988844	10000117-13	13	10000117-72	65242765		2183-09-18 22:23:00	Sodium Chloride 0.9% Flush	Flushed	2183-09-18 22:23:00	2183-09-18 22:23:00
+10000117	27988844	10000117-14	14	10000117-80	77835756		2183-09-18 22:43:00	Enoxaparin Sodium	Administered	2183-09-18 22:00:00	2183-09-18 22:43:00
+10000117	27988844	10000117-15	15	10000117-89	15859159		2183-09-19 06:49:00	Acetaminophen IV	Administered	2183-09-19 06:49:00	2183-09-19 06:49:00
+10000117	27988844	10000117-16	16	10000117-72	65242765		2183-09-19 06:49:00	Sodium Chloride 0.9% Flush	Flushed	2183-09-19 06:49:00	2183-09-19 06:49:00
+10000117	27988844	10000117-17	17	10000117-88		P97WVW	2183-09-19 08:25:00	Pregabalin	Not Given	2183-09-19 08:25:00	2183-09-19 08:26:00
+10000117	27988844	10000117-18	18	10000117-87		P97WVW	2183-09-19 08:26:00	Acetaminophen	Not Given	2183-09-19 08:26:00	2183-09-19 08:26:00
+10000117	27988844	10000117-19	19	10000117-90		P00VRX	2183-09-19 11:29:00	HYDROmorphone (Dilaudid)	Administered	2183-09-19 11:29:00	2183-09-19 11:33:00
+10000117	27988844	10000117-20	20	10000117-94		P00VRX	2183-09-19 11:29:00	LORazepam	Administered	2183-09-19 11:29:00	2183-09-19 11:33:00
+10000117	27988844	10000117-21	21	10000117-109	45438775	P00VRX	2183-09-19 11:33:00		Started	2183-09-19 11:33:00	2183-09-19 11:33:00
+10000117	27988844	10000117-22	22	10000117-98	89548381	P00VRX	2183-09-19 11:33:00	OxyCODONE (Immediate Release)	Administered	2183-09-19 11:33:00	2183-09-19 11:33:00
+10000117	27988844	10000117-23	23	10000117-119		P00VRX	2183-09-19 11:55:00	LORazepam	Administered	2183-09-19 11:55:00	2183-09-19 11:58:00
+10000117	27988844	10000117-24	24	10000117-90		P00VRX	2183-09-19 11:56:00	HYDROmorphone (Dilaudid)	Administered	2183-09-19 11:58:00	2183-09-19 11:59:00
+10000117	27988844	10000117-25	25	10000117-117	8242854	P00VRX	2183-09-19 13:30:00	CeFAZolin	Administered	2183-09-19 13:30:00	2183-09-19 13:30:00
+10000117	27988844	10000117-26	26	10000117-114			2183-09-19 14:29:00	Multivitamins	Not Given	2183-09-19 14:29:00	2183-09-19 14:53:00
+10000117	27988844	10000117-27	27	10000117-115			2183-09-19 14:29:00	Vitamin D	Not Given	2183-09-19 14:29:00	2183-09-19 14:54:00
+10000117	27988844	10000117-28	28	10000117-109	45438775		2183-09-19 14:54:00		Confirmed	2183-09-19 14:54:00	2183-09-19 14:55:00
+10000117	27988844	10000117-29	29	10000117-97	65242765		2183-09-19 14:54:00	Sodium Chloride 0.9% Flush	Flushed	2183-09-19 14:54:00	2183-09-19 14:55:00
+10000117	27988844	10000117-30	30	10000117-122	76263433		2183-09-19 18:22:00	Acetaminophen	Administered	2183-09-19 18:22:00	2183-09-19 18:24:00
+10000117	27988844	10000117-31	31	10000117-111	43725022		2183-09-19 19:48:00	Docusate Sodium	Administered	2183-09-19 20:00:00	2183-09-19 19:49:00
+10000117	27988844	10000117-32	32	10000117-113	53362447		2183-09-19 19:48:00	Senna	Administered	2183-09-19 20:00:00	2183-09-19 19:49:00
+10000117	27988844	10000117-33	33	10000117-117	8242854		2183-09-19 22:07:00	CeFAZolin	Administered	2183-09-19 22:00:00	2183-09-19 22:07:00
+10000117	27988844	10000117-34	34	10000117-100	77835756		2183-09-19 22:07:00	Enoxaparin Sodium	Administered	2183-09-19 22:00:00	2183-09-19 22:07:00
+10000117	27988844	10000117-35	35	10000117-122	76263433		2183-09-20 02:13:00	Acetaminophen	Administered	2183-09-20 02:13:00	2183-09-20 02:13:00
+10000117	27988844	10000117-36	36	10000117-109	45438775		2183-09-20 02:15:00		Stopped - Unscheduled	2183-09-20 02:15:00	2183-09-20 02:16:00
+10000117	27988844	10000117-37	37	10000117-97			2183-09-19 23:00:00	Sodium Chloride 0.9% Flush	Not Flushed	2183-09-19 23:00:00	2183-09-20 04:25:00
+10000117	27988844	10000117-38	38	10000117-97	65242765		2183-09-20 08:36:00	Sodium Chloride 0.9% Flush	Flushed	2183-09-20 08:36:00	2183-09-20 08:36:00
+10000117	27988844	10000117-39	39	10000117-117	8242854		2183-09-20 08:36:00	CeFAZolin	Administered	2183-09-20 08:00:00	2183-09-20 08:39:00
+10000117	27988844	10000117-40	40	10000117-111	43725022		2183-09-20 08:36:00	Docusate Sodium	Administered	2183-09-20 08:00:00	2183-09-20 08:39:00
+10000117	27988844	10000117-41	41	10000117-120			2183-09-20 08:00:00	Multivitamins	Not Given	2183-09-20 08:00:00	2183-09-20 08:39:00
+10000117	27988844	10000117-42	42	10000117-113	53362447		2183-09-20 08:36:00	Senna	Administered	2183-09-20 08:00:00	2183-09-20 08:39:00
+10000117	27988844	10000117-43	43	10000117-115	14896347		2183-09-20 08:36:00	Vitamin D	Administered	2183-09-20 08:00:00	2183-09-20 08:39:00
+10000117	27988844	10000117-44	44	10000117-122	76263433		2183-09-20 08:36:00	Acetaminophen	Administered	2183-09-20 08:37:00	2183-09-20 08:39:00
+10000117	27988844	10000117-45	45	10000117-121	88696242		2183-09-20 08:36:00	OxyCODONE (Immediate Release)	Administered	2183-09-20 08:37:00	2183-09-20 08:39:00
+10000117	27988844	10000117-46	46	10000117-123			2183-09-20 07:30:00		Not Given	2183-09-20 07:30:00	2183-09-20 11:59:00
+10000117	27988844	10000117-47	47	10000117-122	76263433		2183-09-20 14:49:00	Acetaminophen	Administered	2183-09-20 14:49:00	2183-09-20 14:52:00
+10000117	27988844	10000117-48	48	10000117-121	88696242		2183-09-20 14:49:00	OxyCODONE (Immediate Release)	Administered	2183-09-20 14:49:00	2183-09-20 14:52:00
+10000117	27988844	10000117-49	49	10000117-97	65242765		2183-09-20 15:50:00	Sodium Chloride 0.9% Flush	Flushed	2183-09-20 15:50:00	2183-09-20 15:51:00
+10000117	27988844	10000117-50	50	10000117-125	34528877		2183-09-20 15:50:00	Cepacol (Sore Throat Lozenge)	Administered	2183-09-20 15:50:00	2183-09-20 15:51:00
+10000117	27988844	10000117-51	51	10000117-111			2183-09-20 20:00:00	Docusate Sodium	Not Given	2183-09-20 20:00:00	2183-09-20 20:29:00
+10000117	27988844	10000117-52	52	10000117-113			2183-09-20 20:00:00	Senna	Not Given	2183-09-20 20:00:00	2183-09-20 20:29:00
+10000117	27988844	10000117-53	53	10000117-100	77835756		2183-09-20 20:57:00	Enoxaparin Sodium	Administered	2183-09-20 20:57:00	2183-09-20 20:58:00
+10000117	27988844	10000117-54	54	10000117-122	76263433		2183-09-20 20:57:00	Acetaminophen	Administered	2183-09-20 20:57:00	2183-09-20 20:58:00
+10000117	27988844	10000117-55	55	10000117-121	88696242		2183-09-21 01:30:00	OxyCODONE (Immediate Release)	Administered	2183-09-21 01:30:00	2183-09-21 01:30:00
+10000117	27988844	10000117-56	56	10000117-97	65242765		2183-09-21 08:19:00	Sodium Chloride 0.9% Flush	Flushed	2183-09-21 08:19:00	2183-09-21 08:19:00
+10000117	27988844	10000117-57	57	10000117-115	14896347		2183-09-21 08:19:00	Vitamin D	Administered	2183-09-21 08:00:00	2183-09-21 08:19:00
+10000117	27988844	10000117-58	58	10000117-121	88696242		2183-09-21 08:19:00	OxyCODONE (Immediate Release)	Administered	2183-09-21 08:15:00	2183-09-21 08:19:00
+10000117	27988844	10000117-59	59	10000117-122	76263433		2183-09-21 08:19:00	Acetaminophen	Administered	2183-09-21 08:15:00	2183-09-21 08:19:00
+10000117	27988844	10000117-60	60	10000117-111			2183-09-21 08:00:00	Docusate Sodium	Not Given	2183-09-21 08:00:00	2183-09-21 10:24:00
+10000117	27988844	10000117-61	61	10000117-120			2183-09-21 08:00:00	Multivitamins	Not Given	2183-09-21 08:00:00	2183-09-21 10:24:00
+10000117	27988844	10000117-62	62	10000117-113			2183-09-21 08:00:00	Senna	Not Given	2183-09-21 08:00:00	2183-09-21 10:24:00
+10000117	27988844	10000117-63	63	10000117-126			2183-09-21 09:00:00		Not Given	2183-09-21 09:00:00	2183-09-21 11:35:00
+10000117	27988844	10000117-64	64	10000117-122	76263433		2183-09-21 15:51:00	Acetaminophen	Administered	2183-09-21 15:51:00	2183-09-21 15:51:00
+
+Healthcare Common Procedure Coding System events
+subject_id	hadm_id	chartdate	hcpcs_cd	seq_num	short_description
+10000117	22927623	2181-11-15	43239	1	Digestive system
+10000117	22927623	2181-11-15	G0378	2	Hospital observation per hr
+
+Out-patient Medical Record
+subject_id	chartdate	seq_num	result_name	result_value
+10000117	2174-10-14	1	Blood Pressure	124/66
+10000117	2174-10-14	1	Weight (Lbs)	121
+10000117	2175-01-26	1	Blood Pressure	130/84
+10000117	2175-01-27	1	Blood Pressure	100/66
+10000117	2175-01-27	1	Weight (Lbs)	125
+10000117	2175-03-17	1	Blood Pressure	110/70
+10000117	2175-04-28	1	Blood Pressure	110/70
+10000117	2175-08-18	1	Blood Pressure	112/70
+10000117	2175-08-18	1	Weight (Lbs)	115
+10000117	2175-09-08	1	Blood Pressure	110/70
+10000117	2175-09-08	1	BMI (kg/m2)	19.6
+10000117	2175-09-08	1	Height (Inches)	64.5
+10000117	2175-09-08	1	Weight (Lbs)	116
+10000117	2175-12-16	1	Blood Pressure	120/78
+10000117	2176-02-01	1	Blood Pressure	110/60
+10000117	2176-02-10	1	Blood Pressure	120/74
+10000117	2176-02-10	1	BMI (kg/m2)	20.8
+10000117	2176-02-10	1	Weight (Lbs)	123
+10000117	2176-02-10	2	Blood Pressure	110/64
+10000117	2176-02-21	1	Blood Pressure	106/70
+10000117	2176-02-21	1	BMI (kg/m2)	19.9
+10000117	2176-02-21	1	Weight (Lbs)	118
+10000117	2176-03-28	1	Blood Pressure	124/80
+10000117	2176-04-04	1	Blood Pressure	110/70
+10000117	2176-04-21	1	Blood Pressure	114/80
+10000117	2176-08-09	1	Blood Pressure	130/80
+10000117	2176-09-08	1	Blood Pressure	112/80
+10000117	2176-09-08	1	BMI (kg/m2)	18.7
+10000117	2176-09-08	1	Height (Inches)	65
+10000117	2176-09-08	1	Weight (Lbs)	112.2
+10000117	2176-10-25	1	Blood Pressure	120/80
+10000117	2177-01-08	1	Blood Pressure	120/80
+10000117	2177-05-22	1	Blood Pressure	110/80
+10000117	2177-06-26	1	Blood Pressure	110/70
+10000117	2177-09-17	1	Blood Pressure	110/60
+10000117	2178-02-21	1	Blood Pressure	100/70
+10000117	2178-03-26	1	Blood Pressure	130/90
+10000117	2178-03-26	1	BMI (kg/m2)	19.4
+10000117	2178-03-26	1	Height (Inches)	64.75
+10000117	2178-03-26	1	Weight (Lbs)	115.4
+10000117	2178-04-22	1	Blood Pressure	116/70
+10000117	2178-05-20	1	Blood Pressure	122/74
+10000117	2178-06-12	1	Blood Pressure	114/60
+10000117	2178-08-28	1	Blood Pressure	110/62
+10000117	2178-08-28	1	BMI (kg/m2)	18.8
+10000117	2178-08-28	1	Height (Inches)	64.75
+10000117	2178-08-28	1	Weight (Lbs)	112
+10000117	2178-08-28	2	Blood Pressure	120/70
+10000117	2178-09-18	1	Blood Pressure	90/70
+10000117	2178-09-18	1	BMI (kg/m2)	18.9
+10000117	2178-09-18	1	Height (Inches)	64.5
+10000117	2178-09-18	1	Weight (Lbs)	112
+10000117	2179-08-01	1	Blood Pressure	100/60
+10000117	2179-12-12	1	Blood Pressure	110/70
+10000117	2179-12-19	1	Blood Pressure	106/70
+10000117	2180-02-20	1	Blood Pressure	114/70
+10000117	2180-06-04	1	Blood Pressure	120/72
+10000117	2180-06-23	1	Blood Pressure	114/70
+10000117	2180-07-07	1	Blood Pressure	106/70
+10000117	2180-07-21	1	Blood Pressure	124/66
+10000117	2180-07-21	1	BMI (kg/m2)	19.1
+10000117	2180-07-21	1	Height (Inches)	65
+10000117	2180-07-21	1	Weight (Lbs)	115
+10000117	2180-08-31	1	Blood Pressure	110/60
+10000117	2180-08-31	1	BMI (kg/m2)	19.6
+10000117	2180-08-31	1	Weight (Lbs)	118
+10000117	2180-10-13	1	Blood Pressure	106/70
+10000117	2180-12-24	1	Blood Pressure	122/74
+10000117	2181-03-02	1	Blood Pressure	126/86
+10000117	2181-03-16	1	Blood Pressure	116/70
+10000117	2181-04-25	1	Blood Pressure	124/76
+10000117	2181-07-12	1	Blood Pressure	120/76
+10000117	2181-08-10	1	Blood Pressure	114/76
+10000117	2181-08-10	1	BMI (kg/m2)	18.1
+10000117	2181-08-10	1	Height (Inches)	64
+10000117	2181-08-10	1	Weight (Lbs)	105.2
+10000117	2181-10-13	1	Blood Pressure	144/82
+10000117	2181-11-04	1	Blood Pressure	120/70
+10000117	2181-11-11	1	Blood Pressure	130/74
+10000117	2181-11-11	1	BMI (kg/m2)	17.6
+10000117	2181-11-11	1	Weight (Lbs)	102.8
+10000117	2181-11-15	1	BMI (kg/m2)	17.0
+10000117	2181-11-15	1	Height (Inches)	65
+10000117	2181-11-15	1	Weight (Lbs)	102.4
+10000117	2181-11-22	1	Blood Pressure	112/72
+10000117	2181-11-22	1	BMI (kg/m2)	17.1
+10000117	2181-11-22	1	Weight (Lbs)	102.6
+10000117	2181-12-27	1	Blood Pressure	120/82
+10000117	2181-12-27	1	BMI (kg/m2)	17.6
+10000117	2181-12-27	1	Weight (Lbs)	105.6
+10000117	2182-02-28	1	Blood Pressure	115/79
+10000117	2182-03-14	1	Blood Pressure	109/74
+10000117	2182-03-21	1	Blood Pressure	104/72
+10000117	2182-03-21	1	BMI (kg/m2)	18.1
+10000117	2182-03-21	1	Height (Inches)	64.25
+10000117	2182-03-21	1	Weight (Lbs)	106.2
+10000117	2182-03-24	1	Blood Pressure	110/69
+10000117	2182-05-04	1	Blood Pressure	113/67
+10000117	2182-12-19	1	Blood Pressure	134/84
+10000117	2183-02-07	1	Blood Pressure	115/71
+10000117	2183-02-22	1	Blood Pressure	118/67
+10000117	2183-02-22	1	BMI (kg/m2)	18.2
+10000117	2183-02-22	1	Weight (Lbs)	107
+10000117	2183-03-08	1	Blood Pressure	110/76
+10000117	2183-03-08	1	BMI (kg/m2)	17.8
+10000117	2183-03-08	1	Height (Inches)	65
+10000117	2183-03-08	1	Weight (Lbs)	106.8
+10000117	2183-04-12	1	Blood Pressure	130/76
+10000117	2183-04-12	1	BMI (kg/m2)	17.6
+10000117	2183-04-12	1	Weight (Lbs)	106
+10000117	2183-06-27	1	Blood Pressure	122/73
+10000117	2183-06-27	1	BMI (kg/m2)	17.6
+10000117	2183-06-27	1	Height (Inches)	65
+10000117	2183-06-27	1	Weight (Lbs)	106
+10000117	2183-07-18	1	Blood Pressure	114/68
+10000117	2183-09-18	1	BMI (kg/m2)	18.7
+10000117	2183-09-18	1	Height (Inches)	64
+10000117	2183-09-18	1	Weight (Lbs)	109.13
+10000117	2183-10-10	1	Blood Pressure	108/70
+10000117	2183-10-10	1	BMI (kg/m2)	18.2
+10000117	2183-10-10	1	Weight (Lbs)	106.2
+10000117	2184-01-02	1	Blood Pressure	113/66
+10000117	2184-01-07	1	Blood Pressure	110/72
+10000117	2184-01-07	1	BMI (kg/m2)	18.8
+10000117	2184-01-07	1	Height (Inches)	64.75
+10000117	2184-01-07	1	Weight (Lbs)	112
+10000117	2184-02-15	1	Blood Pressure	120/62
+10000117	2184-02-15	1	BMI (kg/m2)	18.6
+10000117	2184-02-15	1	Height (Inches)	64.5
+10000117	2184-02-15	1	Weight (Lbs)	110.3
+10000117	2184-03-28	1	Blood Pressure	106/67
+10000117	2184-08-01	1	Blood Pressure	108/58
+10000117	2184-08-14	1	Blood Pressure	109/70
+10000117	2184-08-14	1	BMI (kg/m2)	19.0
+10000117	2184-08-14	1	Height (Inches)	64
+10000117	2184-08-14	1	Weight (Lbs)	110.8
+10000117	2184-09-04	1	Blood Pressure	108/74
+10000117	2184-09-16	1	Blood Pressure	108/74
+10000117	2184-09-16	1	BMI (kg/m2)	18.9
+10000117	2184-09-16	1	Height (Inches)	64
+10000117	2184-09-16	1	Weight (Lbs)	110
+
+Patient
+subject_id	gender	anchor_age	anchor_year	anchor_year_group	dod
+10000117	F	48	2174	2008 - 2010	
+
+Prescriptions
+subject_id	hadm_id	pharmacy_id	poe_id	poe_seq	order_provider_id	starttime	stoptime	drug_type	drug	formulary_drug_cd	gsn	ndc	prod_strength	form_rx	dose_val_rx	dose_unit_rx	form_val_disp	form_unit_disp	doses_per_24_hrs	route
+10000117	22927623	22016442	10000117-36	36	P15Z5E	2181-11-15 13:00:00	2181-11-15 19:00:00	MAIN	Heparin	HEPA5I	006549	63323026201	5000 Units / mL- 1mL Vial		5000	UNIT	1	mL	2	SC
+10000117	22927623	98897055	10000117-30	30	P15Z5E	2181-11-15 13:00:00	2181-11-15 19:00:00	MAIN	Sodium Chloride 0.9% Flush	NACLFLUSH		0	10 mL Syringe		3	mL	0.3	SYR	3	IV
+10000117	27988844	8242854	10000117-117	117	P700FL	2183-09-19 12:00:00	2183-09-20 15:00:00	BASE	Iso-Osmotic Dextrose	FRBD100		0	100ml Bag		100	mL	100	mL	3	IV
+10000117	27988844	8242854	10000117-117	117	P700FL	2183-09-19 12:00:00	2183-09-20 15:00:00	MAIN	CeFAZolin	CEFA2D100	075120	00338350841	2 g / 100 mL Dextrose (iso-os)		2	g	1	BAG	3	IV
+10000117	27988844	14896347	10000117-115	115	P700FL	2183-09-19 08:00:00	2183-09-21 21:00:00	MAIN	Vitamin D	ERGO400T	019166	10432017002	400 Unit Tablet		400	UNIT	1	TAB	1	PO
+10000117	27988844	15859159	10000117-89	89	P26LAO	2183-09-19 07:00:00	2183-09-19 16:00:00	MAIN	Acetaminophen IV	ACET1000I	066887	43825010201	1000 mg / 100 mL Vial		1000	mg	1	VIAL	1	IV
+10000117	27988844	23019714	10000117-120	120	P21D9R	2183-09-20 08:00:00	2183-09-21 21:00:00	MAIN	Multivitamins	MVI	002532	00904053061	1 Tablet		1	TAB	1	TAB	1	PO
+10000117	27988844	23937734	10000117-112	112	P700FL	2183-09-19 12:00:00	2183-09-21 21:00:00	MAIN	Bisacodyl	BISA10R	002944	00536135501	10mg Suppository		10	mg	1	SUPP		PR
+10000117	27988844	24650218	10000117-99	99	P13BTU	2183-09-19 17:00:00	2183-09-19 18:00:00	MAIN	Acetaminophen	ACET650L	065758	00121197100	650mg UD Cup		1000	mg	1.5385	UDCUP		PO/NG
+10000117	27988844	31225489	10000117-114	114	P700FL	2183-09-19 08:00:00	2183-09-19 18:00:00	MAIN	Multivitamins	MVI	002532	00904053061	1 Tablet		1	TAB	1	TAB	1	PO
+10000117	27988844	33901255	10000117-123	123	P21D9R	2183-09-20 08:00:00	2183-09-20 15:00:00	BASE	Sodium Chloride 0.9%	NSLV	001210	00338004904	Floor Stock Bag		1000	mL	1000	mL		IV
+10000117	27988844	34528877	10000117-125	125	P21D9R	2183-09-20 16:00:00	2183-09-21 21:00:00	MAIN	Cepacol (Sore Throat Lozenge)	CEPACOL1	067735	63824072283	1 Lozenge		2	LOZ	2	LOZ		PO
+10000117	27988844	39410779	10000117-112	112	P700FL	2183-09-19 12:00:00	2183-09-21 21:00:00	MAIN	Bisacodyl	BISA5	002947	00536338101	5 mg Tab		10	mg	2	TAB		PO
+10000117	27988844	39958206	10000117-98	98	P13BTU	2183-09-19 17:00:00	2183-09-19 18:00:00	MAIN	OxyCODONE (Immediate Release)	OXYCO5L	004224	00121483940	5mg/5mL Cup		5-10	mg	1-2	UDCUP		PO/NG
+10000117	27988844	43725022	10000117-111	111	P700FL	2183-09-19 20:00:00	2183-09-21 21:00:00	MAIN	Docusate Sodium	DOCU100L	003017	00121054410	100mg / 10 mL Cup		100	mg	1	UDCUP	2	PO
+10000117	27988844	45438775	10000117-109	109	P700FL	2183-09-19 12:00:00	2183-09-20 15:00:00	BASE	Lactated Ringers	LRLV	001187	00338011704	Floor Stock Bag		1000	mL	1000	mL		IV
+10000117	27988844	46677405	10000117-116	116	P700FL	2183-09-19 12:00:00	2183-09-21 21:00:00	MAIN	Ondansetron	ONDAN4I	061716	70860077602	2mg/mL-2mL		4	mg	1	VIAL		IV
+10000117	27988844	49283160	10000117-113	113	P700FL	2183-09-19 20:00:00	2183-09-21 21:00:00	MAIN	Senna	SENN187	019964	00904652261	8.6 mg Tablet		8.6	mg	1	TAB	2	PO
+10000117	27988844	49355618	10000117-99	99	P13BTU	2183-09-18 21:00:00	2183-09-19 16:00:00	MAIN	Acetaminophen	APAP500	004490	00904198861	500mg Tablet		1000	mg	2	TAB		PO/NG
+10000117	27988844	53362447	10000117-113	113	P700FL	2183-09-19 20:00:00	2183-09-21 21:00:00	MAIN	Senna	SENN5L	002922	54162000708	8.8 mg / 5 mL Syrup		8.6	mg	0.9773	SYRP	2	PO
+10000117	27988844	62065945	10000117-126	126	P21D9R	2183-09-21 09:00:00	2183-09-21 21:00:00	BASE	Sodium Chloride 0.9%	NSLV	001210	00338004904	Floor Stock Bag		1000	mL	1000	mL		IV
+10000117	27988844	65242765	10000117-97	97	P13BTU	2183-09-18 21:00:00	2183-09-21 21:00:00	MAIN	Sodium Chloride 0.9% Flush	NACLFLUSH		0	10 mL Syringe		3-10	mL	0.3-1	SYR	3	IV
+10000117	27988844	68954207	10000117-110	110	P700FL	2183-09-19 12:00:00	2183-09-20 12:00:00	MAIN	Morphine Sulfate	MORP4V	074851	00641612525	4 mg / 1 mL Vial		2-4	mg	0.5-1	VIAL		IV
+10000117	27988844	76263433	10000117-122	122	P21D9R	2183-09-19 19:00:00	2183-09-21 21:00:00	MAIN	Acetaminophen	ACET650L	065758	00121197100	650mg UD Cup		1000	mg	1.5385	UDCUP		PO/NG
+10000117	27988844	77835756	10000117-100	100	P13BTU	2183-09-18 21:00:00	2183-09-21 21:00:00	MAIN	Enoxaparin Sodium	LOVE40I	039482	00703854023	40mg Syringe		40	mg	1	SYR	1	SC
+10000117	27988844	88696242	10000117-121	121	P21D9R	2183-09-19 19:00:00	2183-09-21 21:00:00	MAIN	OxyCODONE (Immediate Release)	OXYCO5L	004224	00121483940	5mg/5mL Cup		5-10	mg	1-2	UDCUP		PO/NG
+10000117	27988844	89548381	10000117-98	98	P13BTU	2183-09-18 21:00:00	2183-09-19 16:00:00	MAIN	OxyCODONE (Immediate Release)	OXYC5	004225	68084035401	5mg Tablet		5-10	mg	1-2	TAB		PO/NG
+10000117	27988844	91861629	10000117-111	111	P700FL	2183-09-19 20:00:00	2183-09-21 21:00:00	MAIN	Docusate Sodium	DOCU100	003009	00904645561	100mg Capsule		100	mg	1	CAP	2	PO
+10000117	27988844	96147869	10000117-101	101	P700FL	2183-09-19 12:00:00	2183-09-21 21:00:00	MAIN	Influenza Vaccine Quadrivalent	INFL0.5LF	078262	19515090941	0.5 mL Syringe		0.5	mL	1	SYR	0	IM
+
+Procedures
+subject_id	hadm_id	seq_num	chartdate	icd_code	icd_version
+10000117	27988844	1	2183-09-19	0QS734Z	10
+
+Services
+subject_id	hadm_id	transfertime	prev_service	curr_service
+10000117	22927623	2181-11-15 02:06:42		MED
+10000117	27988844	2183-09-18 18:11:32		ORTHO
+
+Transfers
+subject_id	hadm_id	transfer_id	eventtype	careunit	intime	outtime
+10000117	22927623	31050869	discharge	UNKNOWN	2181-11-15 14:52:47	
+10000117	22927623	32642808	ED	Emergency Department	2181-11-14 21:51:00	2181-11-15 02:06:42
+10000117	22927623	36691801	transfer	Med/Surg	2181-11-15 08:15:53	2181-11-15 14:52:47
+10000117	22927623	37903757	admit	Emergency Department Observation	2181-11-15 02:06:42	2181-11-15 08:15:53
+10000117	27988844	32373501	admit	Med/Surg	2183-09-18 20:20:00	2183-09-19 14:05:15
+10000117	27988844	32852142	discharge	UNKNOWN	2183-09-21 16:30:30	
+10000117	27988844	33176849	ED	Emergency Department	2183-09-18 08:41:00	2183-09-18 20:20:00
+10000117	27988844	38836401	transfer	Surgery/Trauma	2183-09-19 14:05:15	2183-09-21 16:30:30
+10000117		30632130	ED	Emergency Department	2183-07-17 10:30:00	2183-07-17 11:31:00
+10000117		32193961	ED	Emergency Department	2174-08-14 14:41:00	2174-08-14 17:57:00
+10000117		33219953	ED	Emergency Department	2176-02-08 17:52:00	2176-02-08 23:07:00
+`

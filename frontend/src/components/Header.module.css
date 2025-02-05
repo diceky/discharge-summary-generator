@@ -1,0 +1,48 @@
+.wrapper {
+    padding: 20px 0;
+    color: #3d405b;
+    display: flex;
+    flex-direction: row;
+    justify-content: right;
+    align-items: center;
+    font-size: 18px;
+    margin-bottom: 60px;
+  }
+ 
+  .links {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    column-gap: 40px;
+  }
+  
+  .link {
+    text-decoration: none;
+    color: #3d405b;
+  }
+  
+  .link:hover {
+    color: #d49c6b;
+  }
+  
+  /**************
+  Responsive
+  **************/
+  @media screen and (max-width: 480px) {
+  
+    /*　Smartphone portrait */
+    .wrapper {
+      padding: 20px;
+    }
+    .link {
+      display: none;
+    }
+  }
+  
+  
+  @media screen and (min-width: 480px) and (max-width: 896px) {
+    /*　for iPad portrait and Smartphone landscape 　*/
+    .wrapper {
+      padding: 20px;
+    }
+  }
