@@ -3,7 +3,10 @@ import { Circles } from 'react-loader-spinner'
 import './Styles.css'
 import { BookOpen } from 'feather-icons-react';
 import Markdown from 'react-markdown'
-import {patient1} from '../assets/MIMIC';;
+import {patient1} from '../assets/MIMIC';
+import {patient2} from '../assets/MIMIC';
+import {patient3} from '../assets/MIMIC';
+import {patient4} from '../assets/MIMIC';
 
 const Generator = () => {
 
@@ -36,12 +39,6 @@ const Generator = () => {
     You are a helpful medical advisor. 
     Follow the instructions and provide responses to the best of your knowledge. 
   `
-
-  const preferenceOptions = [
-    "Low",
-    "Medium",
-    "High"
-  ];
 
   useEffect(() => {
     return () => {//cleanup code
@@ -139,13 +136,6 @@ const Generator = () => {
       Discharge instructions, in bullet points
 
       This is the patient records and notes to use as input: ${input}
-
-      On a scale of low-medium-high, set the ${preference[0].name} of the summary to ${preference[0].value}.
-      On a scale of low-medium-high, set the ${preference[1].name} of the summary to ${preference[1].value}.
-
-      Generate the summary in the following writing style.
-      Deliberately mimic the user's lexical and syntactic styles, i.e. their choice of words, vocabulary,grammar and sentence structures, to match the given writing style.
-      Writing style reference: ${style}
       
       Provide your response in the following format, do not wrap the json codes in JSON markers:
       
@@ -218,10 +208,6 @@ const Generator = () => {
 
     const prompt = `
       Explain your rationale for the following section of the summary.
-
-      Provide the rationale in the same writing style as the following reference.
-      Deliberately mimic the user's lexical and syntactic styles, i.e. their choice of words, vocabulary, grammar, and sentence structures, to match the given writing style.
-      Writing style reference: ${style}
 
       Provide your response in the following format:
       
@@ -401,7 +387,9 @@ const Generator = () => {
 
   const handleArticle = (e) => {
     if (e.target.innerText === "Patient 1") setInput(patient1);
-    // else if (e.target.innerText === "Article 2") setInput(article2);
+    else if (e.target.innerText === "Patient 2") setInput(patient2);
+    else if (e.target.innerText === "Patient 3") setInput(patient3);
+    else if (e.target.innerText === "Patient 4") setInput(patient4);
   }
 
   const toggleEditMode = () => {
@@ -422,6 +410,7 @@ const Generator = () => {
                 <button className="article" onClick={(e) => handleArticle(e)}>Patient 1</button>
                 <button className="article" onClick={(e) => handleArticle(e)}>Patient 2</button>
                 <button className="article" onClick={(e) => handleArticle(e)}>Patient 3</button>
+                <button className="article" onClick={(e) => handleArticle(e)}>Patient 4</button>
               </div>
             <>
               <textarea className="summaryInput" value={input} placeholder='text to summarize...' onChange={(e) => handleNewInput(e)} />

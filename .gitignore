@@ -195,3 +195,5 @@ dist-ssr
 *.njsproj
 *.sln
 *.sw?
+
+MIMIC.jsx
